@@ -71,20 +71,26 @@ MA5770_PROJECT/
 
 ## Installation
 
+```
 pip install numpy pandas scikit-learn matplotlib tqdm
 pip install tensorflow tensorflow-datasets
 pip install hdbscan librosa
 pip install datasets sentence-transformers
+```
 
 ---
 
 ## How to Run
 
 Run notebooks:
+```
 jupyter notebook MA5770_Expt1.ipynb
+```
 
 Run full pipeline:
+```
 python reproducibility_demo.py
+```
 
 ---
 
