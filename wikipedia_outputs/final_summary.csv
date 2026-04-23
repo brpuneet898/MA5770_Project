@@ -1,0 +1,14 @@
+section,method,main_score_name,main_score,runtime_sec,notes
+retrieval,Exact cosine on TF-IDF,Recall@1,0.9991666666666666,0.0013595781925001423,avg_candidates=12000.00
+retrieval,Exact cosine on JL,Recall@1,1.0,0.0006525391958333178,avg_candidates=12000.00
+retrieval,JL + LSH retrieval,Recall@1,0.11166666666666666,0.008158244335003246,avg_candidates=1200.00
+clustering,MiniBatchKMeans (JL),NMI,0.07094892730673462,0.11319569399984175,clusters=6
+clustering,DBSCAN (JL),NMI,0.0,0.24286802899996474,clusters=1
+clustering,Agglomerative (JL),NMI,0.08108137839081368,0.7052000399999088,clusters=6
+clustering,KMeans (JL),NMI,0.08457659345167229,0.8443217789999835,clusters=6
+clustering,Birch (JL),NMI,0.09230369525316716,1.0368715669997073,clusters=6
+clustering,Spectral (JL),NMI,0.1004990831860055,2.5064955120001287,clusters=6
+clustering,HDBSCAN (JL),NMI,0.06075835149316593,4.850284639000165,clusters=11
+clustering,JL + LSH graph clustering,NMI,0.2932749053786028,10.744347092000226,clusters=2489
+pair_discovery,Exact all-pairs cosine,F1,0.0,0.4383738460001041,candidates=10122750
+pair_discovery,JL + LSH pair discovery,F1,0.0,9.481871914999829,candidates=3184026

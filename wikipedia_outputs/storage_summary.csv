@@ -1,0 +1,5 @@
+representation,memory_mb
+Raw text,24.276351928710938
+Sparse TF-IDF,19.934181213378906
+JL dense (512 dims),46.875
+LSH bits (packed as bool array estimate),1.46484375

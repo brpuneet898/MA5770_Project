@@ -1,0 +1,3 @@
+method,time_sec,candidate_pairs,precision,recall,f1,tp,fp,fn
+Exact all-pairs cosine,0.4383738460001041,10122750,0.0,0.0,0.0,0,70,0
+JL + LSH pair discovery,9.481871914999829,3184026,0.0,0.0,0.0,0,68,0
