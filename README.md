@@ -36,6 +36,7 @@ Uses hash functions that map similar items to the same buckets with high probabi
 
 ## Project Structure
 
+```
 MA5770_PROJECT/
 │
 ├── wikipedia_outputs/
@@ -64,6 +65,7 @@ MA5770_PROJECT/
 │
 ├── reproducibility_demo.py
 └── README.md
+```
 
 ---
 
